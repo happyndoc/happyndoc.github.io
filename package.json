@@ -1,0 +1,28 @@
+{
+  "name": "happyndoc",
+  "version": "1.0.0",
+  "description": "the docs of happyn.net",
+  "author": "support@happyn.cn",
+  "main": "index.js",
+  "keywords": [
+    "theme",
+    "template",
+    "plugin",
+    "vuepress"
+  ],
+  "homepage": "happyndoc.github.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/happyndoc/happyndoc.git"
+  },
+  "license": "UNLICENSED",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.7.1",
+    "vuepress": "^1.7.1",
+    "vuepress-plugin-qrcode": "^1.0.7"
+  }
+}
