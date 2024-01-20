@@ -6,12 +6,12 @@ module.exports = {
     '/': {
       lang: 'zh-CN', // 将会被设置为 <html> 的 lang 属性
       title: 'happyndoc',
-      description: 'VuePress模板，主题，插件演示。展示了一个简单的VuePress案例模板，用户可以直接clone这个仓库，作为初始化一个VuePress网站启动项目，在这个项目的基础上新增自定义配置和功能。'
+      description: 'happynet组网系统的文档中心'
     },
     '/en/': {
       lang: 'en-US',
       title: 'happyndoc',
-      description: 'VuePress template, theme, and plugin Demo. The purpose is that users can directly clone this repository as a startup project for initializing a VuePress website, and then add custom configurations and functions based on this project.'
+      description: 'THe documents of happynet platform'
     }
   },
   plugins: [
@@ -27,7 +27,7 @@ module.exports = {
     }]
   ],
   themeConfig: {
-
+    logo: '/favicon-32x32.png',
     locales: {
       '/en': {
         selectText: 'Languages',
@@ -43,8 +43,8 @@ module.exports = {
         algolia: {},
         nav: [
           { text: 'Guide', link: '/guide/', ariaLabel: 'Guide' },
-          { text: 'Study', link: 'https://lwebapp.com', ariaLabel: 'Study' },
-					{ text: 'Github', link: 'https://github.com/openHacking/vuepress-template' }
+          { text: 'Download', link: '/guide/download', ariaLabel: 'Download' },
+					{ text: 'Github', link: 'https://github.com/happynclient' }
         ],
         sidebar: {
           '/en/guide/': [
@@ -73,8 +73,8 @@ module.exports = {
         algolia: {},
         nav: [
           { text: '指南', link: '/guide/', ariaLabel: '指南' },
-          { text: '学习', link: 'https://lwebapp.com', ariaLabel: '学习' },
-					{ text: 'Github', link: 'https://github.com/openHacking/vuepress-template' }
+          { text: '下载', link: '/guide/download', ariaLabel: '下载' },
+					{ text: 'Github', link: 'https://github.com/happynclient' }
         ],
         sidebar: {
           '/guide/': [
