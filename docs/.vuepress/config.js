@@ -49,8 +49,8 @@ module.exports = {
         sidebar: {
           '/en/guide/': [
             '',
-            'theme',
-            'plugin'
+            'server',
+            'windows'
           ],
           '/en/resource/': [],
         }
@@ -79,8 +79,8 @@ module.exports = {
         sidebar: {
           '/guide/': [
             '',
-            'theme',
-            'plugin'
+            'server',
+            'windows'
           ],
           '/resource/': [],
         }

@@ -1,40 +1,49 @@
 # 指南
 
 ## 介绍
-这整个网站是展示了一个简单的VuePress案例模板，目的是用户可以直接clone这个仓库，作为初始化一个VuePress网站启动项目，然后在这个项目的基础上新增自定义配置和功能。
 
-除此之外，还展示一些插件的使用案例，参考[插件](./plugin)
+参照我们的文档，用happynet搭建组网系统，让您在世界上任何地方，任何联网设备间都能建立链接;
 
-## 为什么建这个模板站？
-有部分刚接触VuePress的同学，按照官方教程操作下来会遇到大大小小的问题，特别是文件目录、打包、插件安装这几块内容。如果直接复制官方的仓库又会比较大，所以如果有一个这样的简洁的初始模板，直接启动使用就很方便了。
+* 随时随地在本地、云、桌面和移动设备之间随心链接访问
+* 优先在各设备间采用P2P连接的方式传递数据
+* 在您的设备无法直接连接的情况下通过HAPPYN的服务快速稳定中转
+* 采用工业强度的加密算法保证您的隐私和数据安全
+* 我的数据我做主，任何第三方嗅探者(包括HAPPYN)都无法窥探您的数据
 
-而且对应的插件能直接看到效果，使用起来更能得心应手。
 
-## 用法
 
-### 第一步
+## 为什么选择Happynet
 
-下载 Vuepress Template 的仓库代码
-```sh
-git clone https://github.com/openHacking/vuepress-template.git
-```
+已经有非常多的工具帮助人们进行内网穿透、建立私人网络及完成端口映射服务; 包括了不起的Zerotier, Tailscale, N2N, FRP, Ngrok, inlets, Cloudflare Tunnel, inebula......
 
-### 第二步
-安装依赖
-```sh
-cd vuepress-template
-yarn # 或者npm i
-```
+但这些工具都需要繁琐的部署工作，期间小坑无数.....HAPPYNET希望用尽可能简单的方式，让您搭建一个点对点访问的局域网，并能支持绝大多数平台的设备互相访问和控制
 
-### 第三步
-启动项目，随后即可根据自己的需求修改配置、编写文档内容
-```sh
-npm run docs:dev
-```
 
-### 第四步
-打包项目
-```sh
-npm run docs:build
-```
-结果会在`docs/.vuepress/`目录下生成一个`dist`文件夹，里面就是打包后的代码
+**HAPPYNET，让网络更简单**
+
+## 系统需求
+
+搭建HAPPYNET网络，需要一台有公网IP的服务器；我们推荐使用腾讯云或者阿里云的云服务器；
+
+### 服务端
+
+* 一台支持Docker的Linux服务器，并有公网IP
+
+::: tip
+目前Windows的服务端还在开发中，敬请期待
+:::
+
+### 客户端
+
+HAPPYNET支持主流平台接入
+
+
+#### Windows
+
+[直接下载](https://storage.happyn.cn/d/happyn/release/windows/happynet-win-x86-x64-all-latest.zip?sign=EvvnoS0JJyo0YbxtKt0w8uv8I5YI1KMlkkNo18BZbl8=:0)
+
+[帮助文档](/guide/windows)
+
+- [x]
+- [x]
+- [x]
