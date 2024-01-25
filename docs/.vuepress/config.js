@@ -78,7 +78,6 @@ module.exports = {
         ],
         sidebar: {
           '/guide/': [
-            '',
             'server',
             'windows',
             'linux',
@@ -88,7 +87,7 @@ module.exports = {
             'synology',
             'openwrt'
           ],
-          '/resource/': [],
+          '/resource/': ['resource'],
         }
       }
     }
