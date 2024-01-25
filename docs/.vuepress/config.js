@@ -80,7 +80,13 @@ module.exports = {
           '/guide/': [
             '',
             'server',
-            'windows'
+            'windows',
+            'linux',
+            'macOS',
+            'Android',
+            'ios',
+            'synology',
+            'openwrt'
           ],
           '/resource/': [],
         }
