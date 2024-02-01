@@ -62,7 +62,7 @@ module.exports = {
         nav: [
           { text: '指南', link: '/guide/', ariaLabel: '指南' },
           { text: '下载', link: '/resource', ariaLabel: '下载' },
-					{ text: '论坛', link: 'https://forum.happyn.cn' }
+					{ text: '论坛', link: 'https://forum.happyn.cn' },
           { text: '交流群', link: '/chatgroup', ariaLabel: '交流群' },
 					{ text: 'Github', link: 'https://github.com/happynclient' }
         ],
