@@ -171,4 +171,4 @@ sudo /Applications/happynet/bin/uninstall.sh
 
 - 还有其它问题？
 
-请点击 这里 向我们反馈问题，谢谢您的包容和支持！
+没关系，请到 [交流论坛](https://forum.happyn.cn/macos) 向我们反馈问题，谢谢您的包容和支持！
