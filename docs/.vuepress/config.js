@@ -68,14 +68,23 @@ module.exports = {
         ],
         sidebar: {
           '/guide/': [
-            'server',
-            'windows',
-            'linux',
-            'macOS',
-            'Android',
-            'ios',
-            'synology',
-            'openwrt'
+            {
+              title: '搭建服务端',
+              children: ['server_linux', 'server_windows']
+            },
+
+            {
+              title: '客户端使用',
+              children: [
+                'windows',
+                'linux',
+                'macOS',
+                'android',
+                'ios',
+                'synology',
+                'openwrt'
+              ]
+            }
           ],
           '/resource/': ['resource'],
         }
