@@ -14,18 +14,6 @@ module.exports = {
       description: 'THe documents of happynet platform'
     }
   },
-  plugins: [
-    '@vuepress/back-to-top',
-    ['qrcode',{
-      // "/" and "/zh/" correspond to the path set by locales
-        labelText: {
-          "/": "二维码",
-          "/en": "QRCode",
-        },
-        size:'small',
-        channel:true
-    }]
-  ],
   themeConfig: {
     logo: '/favicon-32x32.png',
     locales: {
@@ -73,7 +61,9 @@ module.exports = {
         algolia: {},
         nav: [
           { text: '指南', link: '/guide/', ariaLabel: '指南' },
-          { text: '下载', link: '/guide/download', ariaLabel: '下载' },
+          { text: '下载', link: '/resource', ariaLabel: '下载' },
+					{ text: '论坛', link: 'https://forum.happyn.cn' }
+          { text: '交流群', link: '/chatgroup', ariaLabel: '交流群' },
 					{ text: 'Github', link: 'https://github.com/happynclient' }
         ],
         sidebar: {
