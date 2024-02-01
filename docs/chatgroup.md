@@ -8,10 +8,10 @@
 
 ## 🎯 我们的公众号
 
-[WechatAccount](/wechataccount.jpeg)
+![WechatAccount](/wechataccount.jpeg)
 
 ## 🎯  我们的用户群 (微信扫一扫入群)
 
-[WechatGroup](/wechatgroup.png)
+![WechatGroup](/wechatgroup.png)
 
 小伙伴们快来关注我们吧 😃
